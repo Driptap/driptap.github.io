@@ -15,7 +15,7 @@ const WheresThis: React.FC = (): React.ReactElement => {
     ReactDOM.unmountComponentAtNode(
       document.getElementById("mapWrapper").parentElement
     );
-    // document.getElementById("showMapWrapper").style.display = "block";
+    document.getElementById("showMapWrapper").style.display = "block";
     document
       .getElementById("showMapWrapper")
       .addEventListener("click", () =>
